@@ -69,5 +69,6 @@ def calc_multi(a,b):
 
 print(calc_multi(2,3))
 
-
+#無名関数とmap
+#24ページまでやった．
 
