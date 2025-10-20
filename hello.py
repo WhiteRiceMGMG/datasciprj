@@ -53,7 +53,14 @@ data_list2 = [temp * 2 for temp in data_list]
 print(data_list2)
 
 #zip関数
-for one, two in zip([1, 2, 3], [4, 5, 6]):
+for one, two in zip([1, 
+
+
+
+
+
+
+2, 3], [4, 5, 6]):
     print(one, two)
 
 #while
@@ -70,5 +77,23 @@ def calc_multi(a,b):
 print(calc_multi(2,3))
 
 #無名関数とmap
-#24ページまでやった．
+
+def calc_calc(a,b):
+    return a * b
+
+#これは次のように書ける
+(lambda a, b: a * b)(3, 10)
+print((lambda a, b: a * b)(3, 10))
+
+#要素に対して何か処理したいときはmap関数を使う
+def calc_double(a):
+    return a * 2
+
+for num in [1, 2, 3, 4]:
+    printf(calc_double(num))
+
+#map関数を使うと．．．
+
+
+
 
