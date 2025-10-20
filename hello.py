@@ -35,5 +35,29 @@ print('total:', total)
 for dic_key in dic_data:
     print(dic_key, dic_data[dic_key])
 
+#rangeで連続地を取れる＞＞＞？
+for temp in range(10):
+    print(temp)
+
+#rangeは飛び値もできる＞？
+for temp in range(1,11,2):
+    print(temp)
+
+#キーと値を同時に取り出すんやが，items()関数が使える
+for key, value in dic_data.items():
+    print(key, value)
+
+#内包for 
+data_list2 = []
+data_list2 = [temp * 2 for temp in data_list]
+print(data_list2)
+
+#zip関数
+for one, two in zip([1, 2, 3], [4, 5, 6]):
+    print(one, two)
+
+
+
+
 
 
