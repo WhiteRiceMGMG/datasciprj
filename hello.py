@@ -98,6 +98,8 @@ for num in [1, 2, 3, 4]:
 print(list(map(calc_double, [1, 2, 3, 4])))
 
 #map関数とlabmda関数を組み合わせて．．．
+print(list(map(labmda x: c * 2, [1, 2, 3, 4])))
+
 
 
 
