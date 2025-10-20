@@ -63,6 +63,11 @@ while temp_num <= 10:
     temp_num = temp_num + 1
 print(temp_num)
 
+#関数
+def calc_multi(a,b):
+    return a * b
+
+print(calc_multi(2,3))
 
 
 
