@@ -90,9 +90,14 @@ def calc_double(a):
     return a * 2
 
 for num in [1, 2, 3, 4]:
-    printf(calc_double(num))
+    print(calc_double(num))
 
 #map関数を使うと．．．
+#mapはリスト型を帰さず，イテレータを帰すため，
+#明示的にlistに変換する．
+print(list(map(calc_double, [1, 2, 3, 4])))
+
+#map関数とlabmda関数を組み合わせて．．．
 
 
 
