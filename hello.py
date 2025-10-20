@@ -56,7 +56,12 @@ print(data_list2)
 for one, two in zip([1, 2, 3], [4, 5, 6]):
     print(one, two)
 
-
+#while
+temp_num  = 1
+while temp_num <= 10:
+    print(temp_num)
+    temp_num = temp_num + 1
+print(temp_num)
 
 
 
