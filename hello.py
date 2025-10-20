@@ -98,9 +98,21 @@ for num in [1, 2, 3, 4]:
 print(list(map(calc_double, [1, 2, 3, 4])))
 
 #map関数とlabmda関数を組み合わせて．．．
-print(list(map(labmda x: c * 2, [1, 2, 3, 4])))
+print(list(map(lambda x: x * 2, [1, 2, 3, 4])))
 
+#クラスについて．．．
+class Print_class:
+    def print_func(self):
+        print(self.x, self.y)
 
+#インスタンス生成
+pl = Print_class()
+
+pl.x = 10
+pl.y = 100
+pl.z = 1000
+
+pl.print_func()
 
 
 
