@@ -21,3 +21,16 @@ if dummy_val in data_list :
     print('{0}は入っています'.format(dummy_val))
 else :
     print('{0}は入っていません'.format(dummy_val))
+
+total = 0
+
+for temp_num in [1,2,3]:
+    print('temp_num:',temp_num)
+    total = total + temp_num
+
+print('total:', total)
+
+for dic_key in dic_data:
+    print(dic_key, dic_data[dic_key])
+
+
