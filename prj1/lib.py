@@ -12,7 +12,8 @@ import seaborn as sns
 
 #numpyについて
 data = np.array([9, 3, 5, 1, 2, 6, 8, 7, 4])
-data
+print(data)
+print(data.dtype)
 
 
 
