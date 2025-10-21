@@ -13,8 +13,14 @@ import seaborn as sns
 #numpyについて
 data = np.array([9, 3, 5, 1, 2, 6, 8, 7, 4])
 print(data)
+#型確認
 print(data.dtype)
-
+#次元数確認
+print(data.ndim)
+#要素数確認
+print(data.size)
+#すべての要素を2倍にする．
+print(data * 2)
 
 
 
