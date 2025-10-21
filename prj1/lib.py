@@ -21,6 +21,7 @@ print(data.ndim)
 print(data.size)
 #すべての要素を2倍にする．
 print(data * 2)
-
-
+#リストをそのまままるっとかけざんみたいなのもできる 
+data2 = np.array([9, 3, 5, 1, 2, 6, 8, 7, 4]) * np.array([9, 3, 5, 1, 2, 6, 8, 7, 4])
+print(data2)
 
