@@ -114,5 +114,25 @@ pl.z = 1000
 
 pl.print_func()
 
+#class self...
+class MyCalcClass:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def calc_add1(self, a, b):
+        return a + b
+    
+    def clac_add2(self):
+        return self.x + self.y
+    
+    def calc_multi(self, a, b):
+        return a * b
+
+    def calc_print(self, a):
+        print('data{0}:yの値{1}'.format(a, self.y))
+instance_1 = MyCalcClass(1,2)
+instance_2 = MyCalcClass(5,10)
+    
 
 
