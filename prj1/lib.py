@@ -36,3 +36,23 @@ print(data)
 data[::-1].sort()
 print(data)
 #p38までやった．
+
+
+#最小，最大，合計，積み上げの計算
+#cumsum→前から順に積み上げていく計算．
+print(data.min())
+print(data.max())
+print(data.sum())
+print(data.cumsum())
+print(data.cumsum() / data.sum())
+
+#乱数 
+import numpy.random as ramdom
+#乱数シードの発生
+ramdom.seed(0)
+#平均０，標準偏差１の正規分布の乱数を取得 randn
+random.seed(0)
+ran_data = random.randn(10)
+print(ran_data)
+#ほかにも色々ならんすうの 機能がある．
+
