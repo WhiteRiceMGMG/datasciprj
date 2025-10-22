@@ -60,4 +60,18 @@ print(ran_data)
 #取り出す作業は良くする．そんな時には random.choice
 #２つの１つのオプション→一つ目は捜査対象の配列，２つ目は取り出し数
 #オプションはreplaceで，Trueにすると（もしくは省略した時）重複を許す
+data = np.array([3, 6, 7, 4,5, 1, 9, 8, 5, 3])
+print(random.choice(data, 10))
+print(random.choice(data, 10, replace = False))
+
+#numpyは行列計算もできる．arrange関数は指定した連続整数を発生させる．
+#arrange(9)とした場合，０から８までの整数を出力する．
+np.arange(9)
+array1 = np.arange(9).reshape(3,3)
+print(array1)
+#[0,:]を指定すると，一行目，すべての列という意味で，
+array1[0,:]
+print(array1[0,:])
+#[:,0]を指定すると，一列目．．．
+print(array1[:.0])
 
