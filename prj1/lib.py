@@ -76,4 +76,4 @@ print(array1[0,:])
 print(array1[:.0])
 #43ページまでやった
  
- #fuu...
+ #fuu...fuu.
