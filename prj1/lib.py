@@ -75,11 +75,3 @@ print(array1[0,:])
 #[:,0]を指定すると，一列目．．．
 print(array1[:.0])
 #43ページまでやった
-
-#行列の掛け算
-array2 = np.arange(9, 18).reshape(3, 3)
-print(array2)
-
-#行列の掛け算はdot関数を使う
-
-np.dot(array1, array2)
