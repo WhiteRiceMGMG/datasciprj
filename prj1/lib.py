@@ -73,10 +73,20 @@ print(array1)
 array1[0,:]
 print(array1[0,:])
 #[:,0]を指定すると，一列目．．．
-print(array1[:.0])
+print(array1[:,0])
 #43ページまでやった
  
  #fuu...fuu.
 
  #のどが痛い．．．
  #のどが痛いのが治った！＠
+#行列の計算
+#3 x 3の行列を作成し，変数に代入．
+array2 = np.arange(9, 18).reshape(3, 3)
+print(array2)
+#行列の掛け算はdot関数を使う．
+np.dot(array1, array2)
+
+#np.zerosとかnp.onesとかで要素が０とか１の行列を作る．
+print(np.zeros(2, 3), dtype = np.int64)
+print(np.ones(2, 3), dtype = np.float64)
