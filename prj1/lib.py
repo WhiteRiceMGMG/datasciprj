@@ -90,3 +90,5 @@ np.dot(array1, array2)
 #np.zerosとかnp.onesとかで要素が０とか１の行列を作る．
 print(np.zeros(2, 3), dtype = np.int64)
 print(np.ones(2, 3), dtype = np.float64)
+
+#次は45ページから．
