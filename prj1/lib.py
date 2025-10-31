@@ -107,5 +107,12 @@ print(linalg.inv(matrix))
 #元の行列と逆行列の積は単位行列だから．．．
 print(matrix.dot(linalg.inv(matrix)))
 
+#固有値と固有ベクトル eig関数
+eig_value, eig_vector = linalg.eig(matrix)
+#固有値と固有ベクトル
+print(eig_value)
+print(eig_vector)
+
+
 
 
