@@ -92,3 +92,20 @@ print(np.zeros(2, 3), dtype = np.int64)
 print(np.ones(2, 3), dtype = np.float64)
 
 #次は45ページから．
+
+#scipyについて，
+#scipyは線形代数用のライブラリ．
+import scipy.linalg as linalg
+from scipy.optimize import minimize_scalar
+
+#行列式を計算する例 detを使う
+matrix = np.array([[1, -1, -1], [-1, 1, -1], [-1, -1, 1]])
+print(linalg.det(matrix))
+
+#逆行列を計算するにはinv関数を使う
+print(linalg.inv(matrix))
+#元の行列と逆行列の積は単位行列だから．．．
+print(matrix.dot(linalg.inv(matrix)))
+
+
+
