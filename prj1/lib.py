@@ -113,6 +113,6 @@ eig_value, eig_vector = linalg.eig(matrix)
 print(eig_value)
 print(eig_vector)
 
-
+#p55までやった
 
 
