@@ -34,3 +34,7 @@ plt.grid(True)
 
 #ピアソン関数で２変数の相関係数を算出できる
 print(sp.stats.pearsonr(student_data_math['G1'], student_data_math['G3']))
+
+#相関行列
+print(np.corrcoef([student_data_math['G1'], student_data_math['G3']]))
+
