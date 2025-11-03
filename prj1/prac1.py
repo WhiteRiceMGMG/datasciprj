@@ -86,3 +86,17 @@ print(average_money_male)
 #*************************************************************************************#
 #2-9 2-7のデータに対して，IDをキーとしてマージする．MoneyとMathとEnglishの平均を求める#
 #*************************************************************************************#
+attri_data2 = {'ID' : ['3', '4', '7'],
+               'MATH' : [60 ,30, 40],
+               'ENGLISH' : [80, 20, 30]}
+attri_data_frame2 = DataFrame(attri_data2)
+
+attri_data_merge = pd.merge(attri_data_frame1, attri_data_frame2)
+print(attri_data_merge)
+average_money_attri = attri_data_merge['MONEY'].mean()
+average_math_attri  = attri_data_merge['MATH'].mean()
+average_english_attri = attri_data_merge['ENGLISH'].mean()
+
+print(average_money_attri)
+print(average_math_attri)
+print(average_english_attri)
