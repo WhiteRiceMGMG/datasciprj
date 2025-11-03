@@ -45,3 +45,10 @@ def function(x):
 
 print(newton(function,0))
 
+#2-7 以下のデータでmoneyが400以上の人を絞り込んで，レコードを表示する
+attri_datal = {'ID'   :['1','2','3','4','5'],
+               'SEX'  :['F','F','F','M','F'],
+               'MONEY':['1000','2000','500','300','700'],
+               'NAME' :['Saito','Horie','Kondo','Kawada','Matsubara']}
+attri_data_frame1 = DataFrame(attri_datal)
+
