@@ -51,4 +51,11 @@ attri_datal = {'ID'   :['1','2','3','4','5'],
                'MONEY':['1000','2000','500','300','700'],
                'NAME' :['Saito','Horie','Kondo','Kawada','Matsubara']}
 attri_data_frame1 = DataFrame(attri_datal)
+#型変換
+attri_data_frame1['MONEY'] = attri_data_frame1['MONEY'].astype(int)
+attri_data_frame2 = attri_data_frame1['MONEY'] >= 500
+
+#2-8 2-7のデータに対して，男女別の平均moneyを求めてください．
+attai_data_frame1_money[attri_data_frame1[]]
+
 
