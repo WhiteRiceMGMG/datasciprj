@@ -100,3 +100,4 @@ average_english_attri = attri_data_merge['ENGLISH'].mean()
 print(average_money_attri)
 print(average_math_attri)
 print(average_english_attri)
+
