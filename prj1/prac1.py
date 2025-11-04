@@ -101,3 +101,15 @@ print(average_money_attri)
 print(average_math_attri)
 print(average_english_attri)
 
+#*************************************************************************************#
+#2-10 y = 5x + 3のグラフを描写( -10 < x < 10)                                         #
+#*************************************************************************************#
+def prac_function1(x):
+    return  5 * x + 3
+
+x = np.arange(-10, 10)
+plt.figure(figsize = (10, 6))
+plt.plot(x, prac_function1(x))
+plt.grid(True)
+plt.show()                                                                                                                                    
+                                                                                                                                    
