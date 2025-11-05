@@ -134,7 +134,7 @@ plt.subplot(2, 1, 2)
 plt.hist(random_data2, bins=100)
 plt.show()
 
-
+#なるほど
 
 
 
