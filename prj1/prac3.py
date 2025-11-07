@@ -50,3 +50,5 @@ plt.subplot(1, 2, 2)
 plt.hist(student_merge['G3_por'], bins=10)
 plt.tight_layout()
 plt.show()
+
+#41adfadfa
